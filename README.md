@@ -25,7 +25,7 @@ JAVA와 DB를 이용하여 톰캣 서버 , 카카오맵api를 활용하였고 MV
   + 11개 한강공원의 정보를 담은 jsp파일
 
 5. java
-  + controller - action1~action3까지의 command값을 입력받아 각각의 command에 의해 액션 수행파일
+  + controller - action1~action3까지의 command값을 입력받아 각각의 command에 의해 액션 실행 파일
     - controller.action / 로그인 기능관련
     - controller.action2 / 게시판 기능관련
     - controller.action3 / 장소 정보 기능관련 
