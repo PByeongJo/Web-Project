@@ -1,7 +1,7 @@
 ## Seoul River Park 서울한강공원 정보 소개 웹프로젝트
 
 # 프로젝트 설명
-JAVA와 DB를 바탕으로 톰캣 서버 , 카카오맵api를 활용하였고 MVC패턴을 이용한 프로젝트입니다. 
+JAVA와 DB를 이용하여 톰캣 서버 , 카카오맵api를 활용하였고 MVC패턴을 이용한 프로젝트입니다. 
 프로젝트 시연 영상 유튜브링크- https://youtu.be/R_d3CjKvGa8
 
 # 프로젝트 기능
@@ -25,12 +25,15 @@ JAVA와 DB를 바탕으로 톰캣 서버 , 카카오맵api를 활용하였고 MV
   + 11개 한강공원의 정보를 담은 jsp파일
 
 5. java
-  + controller 
+  + controller - action1~action3까지의 command값을 입력받아 각각의 command에 의해 액션 수행파일
+    - controller.action / 로그인 기능관련
+    - controller.action2 / 게시판 기능관련
+    - controller.action3 / 장소 정보 기능관련 
   + DAO
   + DTO
 
 6. js 
-  + 유효성 검사를위한 javascript파일
+  + 유효성 파일 검사를위한 javascript 
 
 7. upload
-  + 사진파일
+  + 사진업로드 파일
